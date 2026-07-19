@@ -128,7 +128,7 @@ Four commands, run in order:
 
 ## Provenance
 
-The workflow follows the YouTube video ["Claude Code + MCP = 24/7 AI Business Intelligence Agent"](https://www.youtube.com/watch?v=rvApCZNxUXU&t=426s) (Mansel Scheffel) — see `transcript.txt`. Deviations from the video, and why:
+The workflow follows the YouTube video ["Claude Code + MCP = 24/7 AI Business Intelligence Agent"](https://www.youtube.com/watch?v=rvApCZNxUXU&t=426s) (Mansel Scheffel). Deviations from the video, and why:
 
 | Video | This build | Why |
 |-------|-----------|-----|
