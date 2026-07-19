@@ -1,0 +1,33 @@
+# secrets -- never commit
+.env
+
+# real business identity/config -- points at a real business's actual Google/Yelp
+# URLs, which by definition name it. Only config.example.json (a placeholder) ships.
+config.json
+
+# real requirements spec for one specific business deployment -- historical planning
+# doc, not something a generic tool needs to ship. Kept locally only.
+PRD.md
+
+# scraped review data -- carries real customer names (Google) and, before
+# scrape() strips them, would carry live reviewer profile links/photos too.
+# analysis.json and dashboard.html are NOT excluded -- they're already
+# anonymous by construction (see README "Privacy design"). See sample-data/
+# for a synthetic, safe-to-publish stand-in showing this data's shape.
+reviews.db
+data/raw/
+
+# Python bytecode cache
+__pycache__/
+*.pyc
+
+# transient test artifacts (selfcheck isolates these; shouldn't normally exist,
+# but ignored in case a crashed run leaves one behind)
+selfcheck.db
+selfcheck-analysis.json
+
+# future: weekly-scheduling log (see README "Scheduling design")
+schedule-log.txt
+
+# personal workspace stash -- not part of this project
+.ignore/

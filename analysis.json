@@ -1,0 +1,752 @@
+{
+ "business": "Local bakery and cafe (real dataset - business name withheld; see README)",
+ "generated_at": "2026-07-18T22:48:28Z",
+ "kpis": {
+  "total_reviews": 960,
+  "avg_rating": 3.74,
+  "pct_1_2_star": 21.9,
+  "by_source": {
+   "google": {
+    "count": 460,
+    "avg_rating": 4.17
+   },
+   "yelp": {
+    "count": 500,
+    "avg_rating": 3.35
+   }
+  },
+  "trend": [
+   {
+    "quarter": "2013-Q2",
+    "avg_rating": 3.26,
+    "count": 23
+   },
+   {
+    "quarter": "2013-Q3",
+    "avg_rating": 3.29,
+    "count": 28
+   },
+   {
+    "quarter": "2013-Q4",
+    "avg_rating": 3.09,
+    "count": 22
+   },
+   {
+    "quarter": "2014-Q1",
+    "avg_rating": 3.51,
+    "count": 37
+   },
+   {
+    "quarter": "2014-Q2",
+    "avg_rating": 3.63,
+    "count": 30
+   },
+   {
+    "quarter": "2014-Q3",
+    "avg_rating": 2.78,
+    "count": 23
+   },
+   {
+    "quarter": "2014-Q4",
+    "avg_rating": 3.29,
+    "count": 14
+   },
+   {
+    "quarter": "2015-Q1",
+    "avg_rating": 3.18,
+    "count": 11
+   },
+   {
+    "quarter": "2015-Q2",
+    "avg_rating": 3.8,
+    "count": 15
+   },
+   {
+    "quarter": "2015-Q3",
+    "avg_rating": 4.3,
+    "count": 10
+   },
+   {
+    "quarter": "2015-Q4",
+    "avg_rating": 3.23,
+    "count": 13
+   },
+   {
+    "quarter": "2016-Q1",
+    "avg_rating": 4.0,
+    "count": 14
+   },
+   {
+    "quarter": "2016-Q2",
+    "avg_rating": 3.5,
+    "count": 18
+   },
+   {
+    "quarter": "2016-Q3",
+    "avg_rating": 3.56,
+    "count": 25
+   },
+   {
+    "quarter": "2016-Q4",
+    "avg_rating": 3.9,
+    "count": 10
+   },
+   {
+    "quarter": "2017-Q1",
+    "avg_rating": 3.08,
+    "count": 12
+   },
+   {
+    "quarter": "2017-Q2",
+    "avg_rating": 3.67,
+    "count": 12
+   },
+   {
+    "quarter": "2017-Q3",
+    "avg_rating": 3.17,
+    "count": 18
+   },
+   {
+    "quarter": "2017-Q4",
+    "avg_rating": 3.23,
+    "count": 13
+   },
+   {
+    "quarter": "2018-Q1",
+    "avg_rating": 3.54,
+    "count": 26
+   },
+   {
+    "quarter": "2018-Q2",
+    "avg_rating": 3.76,
+    "count": 17
+   },
+   {
+    "quarter": "2018-Q3",
+    "avg_rating": 3.94,
+    "count": 35
+   },
+   {
+    "quarter": "2018-Q4",
+    "avg_rating": 4.4,
+    "count": 20
+   },
+   {
+    "quarter": "2019-Q1",
+    "avg_rating": 4.0,
+    "count": 37
+   },
+   {
+    "quarter": "2019-Q2",
+    "avg_rating": 3.81,
+    "count": 16
+   },
+   {
+    "quarter": "2019-Q3",
+    "avg_rating": 3.33,
+    "count": 18
+   },
+   {
+    "quarter": "2019-Q4",
+    "avg_rating": 3.7,
+    "count": 10
+   },
+   {
+    "quarter": "2020-Q1",
+    "avg_rating": 2.38,
+    "count": 8
+   },
+   {
+    "quarter": "2020-Q2",
+    "avg_rating": 2.86,
+    "count": 7
+   },
+   {
+    "quarter": "2020-Q3",
+    "avg_rating": 2.91,
+    "count": 11
+   },
+   {
+    "quarter": "2020-Q4",
+    "avg_rating": 4.44,
+    "count": 9
+   },
+   {
+    "quarter": "2021-Q1",
+    "avg_rating": 3.71,
+    "count": 17
+   },
+   {
+    "quarter": "2021-Q2",
+    "avg_rating": 4.12,
+    "count": 8
+   },
+   {
+    "quarter": "2021-Q3",
+    "avg_rating": 4.8,
+    "count": 5
+   },
+   {
+    "quarter": "2021-Q4",
+    "avg_rating": 3.38,
+    "count": 13
+   },
+   {
+    "quarter": "2022-Q1",
+    "avg_rating": 4.29,
+    "count": 14
+   },
+   {
+    "quarter": "2022-Q2",
+    "avg_rating": 3.6,
+    "count": 15
+   },
+   {
+    "quarter": "2022-Q3",
+    "avg_rating": 3.64,
+    "count": 11
+   },
+   {
+    "quarter": "2022-Q4",
+    "avg_rating": 4.25,
+    "count": 8
+   },
+   {
+    "quarter": "2023-Q1",
+    "avg_rating": 4.23,
+    "count": 13
+   },
+   {
+    "quarter": "2023-Q2",
+    "avg_rating": 4.27,
+    "count": 11
+   },
+   {
+    "quarter": "2023-Q3",
+    "avg_rating": 3.8,
+    "count": 15
+   },
+   {
+    "quarter": "2023-Q4",
+    "avg_rating": 3.75,
+    "count": 24
+   },
+   {
+    "quarter": "2024-Q1",
+    "avg_rating": 4.63,
+    "count": 54
+   },
+   {
+    "quarter": "2024-Q2",
+    "avg_rating": 2.8,
+    "count": 10
+   },
+   {
+    "quarter": "2024-Q3",
+    "avg_rating": 3.1,
+    "count": 10
+   },
+   {
+    "quarter": "2024-Q4",
+    "avg_rating": 3.35,
+    "count": 17
+   },
+   {
+    "quarter": "2025-Q1",
+    "avg_rating": 4.3,
+    "count": 10
+   },
+   {
+    "quarter": "2025-Q2",
+    "avg_rating": 3.94,
+    "count": 17
+   },
+   {
+    "quarter": "2025-Q3",
+    "avg_rating": 4.67,
+    "count": 63
+   },
+   {
+    "quarter": "2025-Q4",
+    "avg_rating": 4.0,
+    "count": 28
+   },
+   {
+    "quarter": "2026-Q1",
+    "avg_rating": 3.89,
+    "count": 19
+   },
+   {
+    "quarter": "2026-Q2",
+    "avg_rating": 3.25,
+    "count": 12
+   },
+   {
+    "quarter": "2026-Q3",
+    "avg_rating": 2.25,
+    "count": 4
+   }
+  ]
+ },
+ "themes": [
+  {
+   "theme": "pastry & bread quality",
+   "mentions": 524,
+   "positive": 332,
+   "negative": 120,
+   "avg_rating": 3.63,
+   "avg_rating_recent": 3.35,
+   "avg_rating_older": 3.64,
+   "worst_quotes": [
+    {
+     "id": "google:Ci9DQUlRQUNvZENodHljRjlvT2xFelRGRlVURTEwV1RNMlZsOW1TbmwwWlU5VFMxRRAB",
+     "rating": 1.0,
+     "date": "2026-05-02",
+     "quote": "Pastries are great.\nEmployees not so much.Tables are always filthy. Employees have poor attitudes and refuse to provide customer service, it's like a chore to them to make any effort to assist a customer.\nThe WiFi password is incorrect and there answer was, \"I can't do anything about that.\"\nHow abou"
+    },
+    {
+     "id": "google:Ci9DQUlRQUNvZENodHljRjlvT2t4S1NVMTRhRkJ0VEVkT05qbFhlVFpCWkZFNVRuYxAB",
+     "rating": 1.0,
+     "date": "2026-04-05",
+     "quote": "Came in this morning April 4, 2026 at approximately 7:28 am to order a coffee and it was a really bad experience highly disappointed. I only come here once a month to pick up coffee then I go to the De Anza College flea market. I ordered and the workers helped like 4-5 customers after me but not one"
+    },
+    {
+     "id": "google:Ci9DQUlRQUNvZENodHljRjlvT2xCcFVqaFRiRUp2ZHpkRGVDMUJjakJvYnpsU1JuYxAB",
+     "rating": 1.0,
+     "date": "2025-10-06",
+     "quote": "Food poisoning after eating their curry bun. Seems like food is old and not stored at appropriate temperatures."
+    }
+   ],
+   "best_quotes": [
+    {
+     "id": "google:Ci9DQUlRQUNvZENodHljRjlvT2sxaE1rRjZNa051TUdwYWVFY3dOVTQzTjNaUldFRRAB",
+     "rating": 5.0,
+     "date": "2026-07-11",
+     "quote": "I always love going here! The Blueberry Lemon Mochi doughnuts they had were exquisite. My recommendation-the chocolate chiffon cakes, there so fluffy and the chocolate pebbles inside really add a flavorful crunch!"
+    },
+    {
+     "id": "google:Ci9DQUlRQUNvZENodHljRjlvT210S2JtaE5MVlpoYWtoclQxQkdYMWRUVjJKdllrRRAB",
+     "rating": 5.0,
+     "date": "2026-06-24",
+     "quote": "Pretty decent bakery. Has a wonderful assortment of bakery items and is filled with an insane assortment of cakes. Some cakes tasted good others were so so. If u want some foot bakery treats give it a look"
+    }
+   ],
+   "worsening": true
+  },
+  {
+   "theme": "service & staff",
+   "mentions": 287,
+   "positive": 149,
+   "negative": 108,
+   "avg_rating": 3.26,
+   "avg_rating_recent": 2.73,
+   "avg_rating_older": 3.29,
+   "worst_quotes": [
+    {
+     "id": "google:Ci9DQUlRQUNvZENodHljRjlvT2xRME4yUjJTM1JTTkVoU1p6bE9NSGR2V0ZCWU1WRRAB",
+     "rating": 1.0,
+     "date": "2026-07-08",
+     "quote": "Giving all 1-star except for the food. Came here to work a little but the WiFi doesn't connect. Staff just says, \"sometimes it's broke\" but when I check reviews I see there are tons of complaints that WiFi not working. Clearly this store has an unwritten policy to be unfriendly towards their patrons"
+    },
+    {
+     "id": "google:Ci9DQUlRQUNvZENodHljRjlvT2tsS01uYzBORmwwWldaTk9FRTFhM2xPZVdoTWVuYxAB",
+     "rating": 1.0,
+     "date": "2026-06-27",
+     "quote": "They have Wi-Fi, but it wasn't working. The employees mentioned that it goes out from time to time."
+    },
+    {
+     "id": "google:Ci9DQUlRQUNvZENodHljRjlvT2xFelRGRlVURTEwV1RNMlZsOW1TbmwwWlU5VFMxRRAB",
+     "rating": 1.0,
+     "date": "2026-05-02",
+     "quote": "Pastries are great.\nEmployees not so much.Tables are always filthy. Employees have poor attitudes and refuse to provide customer service, it's like a chore to them to make any effort to assist a customer.\nThe WiFi password is incorrect and there answer was, \"I can't do anything about that.\"\nHow abou"
+    }
+   ],
+   "best_quotes": [
+    {
+     "id": "google:Ci9DQUlRQUNvZENodHljRjlvT21KWExVc3hTVGRrUTBzMFQyWndZVFV0U0Mxd05XYxAB",
+     "rating": 5.0,
+     "date": "2026-05-12",
+     "quote": "Visited the shop for purchasing a birthday cake. Excellent service from the staff and the cake was very tasty."
+    },
+    {
+     "id": "google:Ci9DQUlRQUNvZENodHljRjlvT21ndFdISkhWRTB4UkVaRlVuRkJWbDl1YVVvNFZXYxAB",
+     "rating": 5.0,
+     "date": "2025-11-26",
+     "quote": "Professional service"
+    }
+   ],
+   "worsening": true
+  },
+  {
+   "theme": "coffee & drinks",
+   "mentions": 222,
+   "positive": 135,
+   "negative": 54,
+   "avg_rating": 3.5,
+   "avg_rating_recent": 2.89,
+   "avg_rating_older": 3.53,
+   "worst_quotes": [
+    {
+     "id": "google:Ci9DQUlRQUNvZENodHljRjlvT2t4S1NVMTRhRkJ0VEVkT05qbFhlVFpCWkZFNVRuYxAB",
+     "rating": 1.0,
+     "date": "2026-04-05",
+     "quote": "Came in this morning April 4, 2026 at approximately 7:28 am to order a coffee and it was a really bad experience highly disappointed. I only come here once a month to pick up coffee then I go to the De Anza College flea market. I ordered and the workers helped like 4-5 customers after me but not one"
+    },
+    {
+     "id": "google:ChZDSUhNMG9nS0VJQ0FnSURQX3NlZ1RREAE",
+     "rating": 1.0,
+     "date": "2024-12-02",
+     "quote": "Today I had very bad experience with the staff called Michelle here. I came to simply pick up my online order of a birthday cake, and I showed her the order number on my app. Michelle made me say my name 3 times and asked me when I ordered it in front of many other customers, like she didn’t know th"
+    },
+    {
+     "id": "google:ChZDSUhNMG9nS0VJQ0FnSUNtaXJXcWN3EAE",
+     "rating": 1.0,
+     "date": "2021-12-24",
+     "quote": "The band is Paris or France 🇫🇷 but this store is far to be French or even have the taste of the French venoiserie. Taking advantage of the name and the baguette 🥖 even though they don’t sell the French baguette or bread. People are rude and I had really a bad experience. The taste of the croissant 🥐"
+    }
+   ],
+   "best_quotes": [
+    {
+     "id": "google:ChZDSUhNMG9nS0VJQ0FnSUMxdXFiZEVREAE",
+     "rating": 5.0,
+     "date": "2025-12-28",
+     "quote": "3 Layers Green Tea Cake, Whipped Cream Filling with Strawberry\n\nVery fresh & very light, in both texture & flavor.\n\n#1 choice of birthday cake🎂🍰"
+    },
+    {
+     "id": "google:Ci9DQUlRQUNvZENodHljRjlvT2t4d2NqQmxNWFZ4UTFKWlEwZFNUbE5LTm5ZM1gxRRAB",
+     "rating": 5.0,
+     "date": "2025-10-19",
+     "quote": "The sandwiches are super fresh if you need a light snack. The service is great. I had two customer service representatives rush to help me. I didn’t even know which one to go to haha! Thanks to the team - great attitude, working hard, lovely to see. Thanks to Casey, Lucas, Henry, Shelly, Dorian!!!"
+    }
+   ],
+   "worsening": true
+  },
+  {
+   "theme": "cleanliness & space",
+   "mentions": 148,
+   "positive": 90,
+   "negative": 36,
+   "avg_rating": 3.55,
+   "avg_rating_recent": 3.17,
+   "avg_rating_older": 3.56,
+   "worst_quotes": [
+    {
+     "id": "google:Ci9DQUlRQUNvZENodHljRjlvT2xFelRGRlVURTEwV1RNMlZsOW1TbmwwWlU5VFMxRRAB",
+     "rating": 1.0,
+     "date": "2026-05-02",
+     "quote": "Pastries are great.\nEmployees not so much.Tables are always filthy. Employees have poor attitudes and refuse to provide customer service, it's like a chore to them to make any effort to assist a customer.\nThe WiFi password is incorrect and there answer was, \"I can't do anything about that.\"\nHow abou"
+    },
+    {
+     "id": "google:ChdDSUhNMG9nS0VJQ0FnSURDcm9tdXhnRRAB",
+     "rating": 1.0,
+     "date": "2020-09-27",
+     "quote": "Needs cleaning"
+    },
+    {
+     "id": "google:ChZDSUhNMG9nS0VJQ0FnSURNaDdYRFBnEAE",
+     "rating": 1.0,
+     "date": "2020-01-13",
+     "quote": "Was there during lunch time. One person was serving 10 people... The tables and the floor were pretty dirty. Since the person was overwhelmed with the queued people, he was not really friendly. Food was okay but not great."
+    }
+   ],
+   "best_quotes": [
+    {
+     "id": "google:Ci9DQUlRQUNvZENodHljRjlvT2xORk9WQnlhakJMVTNFMldscFVPVFJxYTNGYWMzYxAB",
+     "rating": 5.0,
+     "date": "2025-08-29",
+     "quote": "Spacious space, free Wi-Fi,  a variety of desserts"
+    },
+    {
+     "id": "google:Ci9DQUlRQUNvZENodHljRjlvT2xOZmJ6aFhTRk5KVFdwa09XOTNVbDk0UkRGMGEyYxAB",
+     "rating": 5.0,
+     "date": "2025-07-02",
+     "quote": "This is such a cute cafe that has SO much variety for pastries! Very big and spacious indoors, with outdoor patio seating as well. Would come back to try their many other items!"
+    }
+   ],
+   "worsening": true
+  },
+  {
+   "theme": "parking & access",
+   "mentions": 148,
+   "positive": 86,
+   "negative": 38,
+   "avg_rating": 3.41,
+   "avg_rating_recent": 3.75,
+   "avg_rating_older": 3.39,
+   "worst_quotes": [
+    {
+     "id": "google:Ci9DQUlRQUNvZENodHljRjlvT21OeVlqbE5XV1ZLUmxsa1YwUndOM3AxZDFWVVoyYxAB",
+     "rating": 1.0,
+     "date": "2025-11-26",
+     "quote": "Suppossed to be open at 6am, showed up at 6:15am, people saw me at the front door no food out and they didn't come to the door and explain. Never coming to this location again. Get to work!!"
+    },
+    {
+     "id": "google:ChZDSUhNMG9nS0VJQ0FnTURJOE8tcUZ3EAE",
+     "rating": 1.0,
+     "date": "2025-04-06",
+     "quote": "I went at 6:30 am, they did not have a lot stuff . They told me to wait 25 min . My recommendation don’t go early at this location it will be a waste of your time ."
+    },
+    {
+     "id": "google:ChZDSUhNMG9nS0VJQ0FnSURyZ0t1ckhBEAE",
+     "rating": 1.0,
+     "date": "2024-07-12",
+     "quote": "We’ve been customers for years of this store location.  We came on July 3, to buy a mixed berry cream cake as usual, the lady at the counter, probably in her 30-40s brought up a small cake in the box to us.  After payment transaction, in less than two minutes, as we approached the exit door of the s"
+    }
+   ],
+   "best_quotes": [
+    {
+     "id": "google:ChdDSUhNMG9nS0VJQ0FnSUNkdS0zZWpRRRAB",
+     "rating": 5.0,
+     "date": "2024-02-18",
+     "quote": "Excellent cappuccino and great value for price. All baked items are delicious. I am a regular here and I enjoy coming to this location."
+    },
+    {
+     "id": "google:ChZDSUhNMG9nS0VJQ0FnSUNrX2VQd0pBEAE",
+     "rating": 5.0,
+     "date": "2019-06-22",
+     "quote": "I admit that I have a particular \"weakness\" for donuts, but my standards are very high and it's hard to win a 5 star rating in life for anything these days. However I must give credit to this place, they have what I would call one of best danhhmm donut combinations in the world with their \"Croissant"
+    }
+   ],
+   "worsening": false
+  },
+  {
+   "theme": "wait & speed",
+   "mentions": 146,
+   "positive": 76,
+   "negative": 54,
+   "avg_rating": 3.12,
+   "avg_rating_recent": 2.67,
+   "avg_rating_older": 3.14,
+   "worst_quotes": [
+    {
+     "id": "google:Ci9DQUlRQUNvZENodHljRjlvT2t4S1NVMTRhRkJ0VEVkT05qbFhlVFpCWkZFNVRuYxAB",
+     "rating": 1.0,
+     "date": "2026-04-05",
+     "quote": "Came in this morning April 4, 2026 at approximately 7:28 am to order a coffee and it was a really bad experience highly disappointed. I only come here once a month to pick up coffee then I go to the De Anza College flea market. I ordered and the workers helped like 4-5 customers after me but not one"
+    },
+    {
+     "id": "google:ChZDSUhNMG9nS0VJQ0FnTURJOE8tcUZ3EAE",
+     "rating": 1.0,
+     "date": "2025-04-06",
+     "quote": "I went at 6:30 am, they did not have a lot stuff . They told me to wait 25 min . My recommendation don’t go early at this location it will be a waste of your time ."
+    },
+    {
+     "id": "google:ChZDSUhNMG9nS0VJQ0FnSURQX3NlZ1RREAE",
+     "rating": 1.0,
+     "date": "2024-12-02",
+     "quote": "Today I had very bad experience with the staff called Michelle here. I came to simply pick up my online order of a birthday cake, and I showed her the order number on my app. Michelle made me say my name 3 times and asked me when I ordered it in front of many other customers, like she didn’t know th"
+    }
+   ],
+   "best_quotes": [
+    {
+     "id": "google:ChdDSUhNMG9nS0VJQ0FnSUQ5dEpxcXFRRRAB",
+     "rating": 5.0,
+     "date": "2024-03-13",
+     "quote": "yummy food + good service. cakes sell out fast because people like them so much! Anna helped a lot"
+    },
+    {
+     "id": "google:ChZDSUhNMG9nS0VJQ0FnSUMycjVuNlVREAE",
+     "rating": 5.0,
+     "date": "2022-05-01",
+     "quote": "Ordered online and everything was tasty and fresh, delivery was fast and I got everything in branded box👍. I was living in France for five years and honestly cafe style and bakery doesn’t look French but still tasty and beautiful, I will order here again"
+    }
+   ],
+   "worsening": true
+  },
+  {
+   "theme": "freshness",
+   "mentions": 118,
+   "positive": 68,
+   "negative": 34,
+   "avg_rating": 3.44,
+   "avg_rating_recent": 3.44,
+   "avg_rating_older": 3.44,
+   "worst_quotes": [
+    {
+     "id": "google:Ci9DQUlRQUNvZENodHljRjlvT2xCcFVqaFRiRUp2ZHpkRGVDMUJjakJvYnpsU1JuYxAB",
+     "rating": 1.0,
+     "date": "2025-10-06",
+     "quote": "Food poisoning after eating their curry bun. Seems like food is old and not stored at appropriate temperatures."
+    },
+    {
+     "id": "google:ChdDSUhNMG9nS0VJQ0FnSUNpMnNlYWxBRRAB",
+     "rating": 1.0,
+     "date": "2020-10-29",
+     "quote": "Doesn’t bother to brew a coffee that listed in the menu, cake wasn’t fresh. Specifically asked for an espresso and milk — got an extremely hot latte that burnt my tongue."
+    },
+    {
+     "id": "google:ChdDSUhNMG9nS0VJQ0FnSUNnNFBYeWxBRRAB",
+     "rating": 1.0,
+     "date": "2018-03-22",
+     "quote": "I just want everyone to be aware that their so called “Freshly-Squeezed Orange Juice” for $4.25 is not what they claim. Recently, it has started to taste just like Minute Maid Orange Juice which I can just buy a whole carton of at Target for only $2.5. One weeks ago, I had ordered it during the even"
+    }
+   ],
+   "best_quotes": [
+    {
+     "id": "google:ChZDSUhNMG9nS0VJQ0FnSUMxdXFiZEVREAE",
+     "rating": 5.0,
+     "date": "2025-12-28",
+     "quote": "3 Layers Green Tea Cake, Whipped Cream Filling with Strawberry\n\nVery fresh & very light, in both texture & flavor.\n\n#1 choice of birthday cake🎂🍰"
+    },
+    {
+     "id": "google:Ci9DQUlRQUNvZENodHljRjlvT2t4d2NqQmxNWFZ4UTFKWlEwZFNUbE5LTm5ZM1gxRRAB",
+     "rating": 5.0,
+     "date": "2025-10-19",
+     "quote": "The sandwiches are super fresh if you need a light snack. The service is great. I had two customer service representatives rush to help me. I didn’t even know which one to go to haha! Thanks to the team - great attitude, working hard, lovely to see. Thanks to Casey, Lucas, Henry, Shelly, Dorian!!!"
+    }
+   ],
+   "worsening": false
+  },
+  {
+   "theme": "price & value",
+   "mentions": 105,
+   "positive": 56,
+   "negative": 26,
+   "avg_rating": 3.32,
+   "avg_rating_recent": 5.0,
+   "avg_rating_older": 3.31,
+   "worst_quotes": [
+    {
+     "id": "google:ChZDSUhNMG9nS0VJQ0FnSUNMNnBPc0V3EAE",
+     "rating": 1.0,
+     "date": "2024-06-18",
+     "quote": "Extreme price gouging. A loaf of bread is $7. Instead go to 85 degrees just down the road on DeAnza and get a loaf of bread for $3.35. Every item on the menu here is excessively priced compared to other Asian bakeries."
+    },
+    {
+     "id": "google:ChZDSUhNMG9nS0VJQ0FnSUNtaXJXcWN3EAE",
+     "rating": 1.0,
+     "date": "2021-12-24",
+     "quote": "The band is Paris or France 🇫🇷 but this store is far to be French or even have the taste of the French venoiserie. Taking advantage of the name and the baguette 🥖 even though they don’t sell the French baguette or bread. People are rude and I had really a bad experience. The taste of the croissant 🥐"
+    },
+    {
+     "id": "google:ChdDSUhNMG9nS0VJQ0FnSUNRc3V5TDR3RRAB",
+     "rating": 1.0,
+     "date": "2017-03-12",
+     "quote": "Overpriced but awful sandwiches. If you like sugary breads, you will love this place. Even their coffee is terrible. You will wait for your order - not because the place is busy but people behind the counter move at glacial pace.. instead of eating here, just eat 10 spoons of sugar and go on with li"
+    }
+   ],
+   "best_quotes": [
+    {
+     "id": "google:Ci9DQUlRQUNvZENodHljRjlvT21jNVZXRjJPVGxIYjAxamJWQmxMV3BaWW1ZelZHYxAB",
+     "rating": 5.0,
+     "date": "2026-01-20",
+     "quote": "Pricey but good recommended"
+    },
+    {
+     "id": "google:ChZDSUhNMG9nS0VJQ0FnSURfNTlYckhnEAE",
+     "rating": 5.0,
+     "date": "2025-01-27",
+     "quote": "The girl with bangs was sooo nice and friendly :>>> I needed a help with deciding the coffee option and she gave a lot of practical suggestions and recommendations patiently. The food could be cheaper though"
+    }
+   ],
+   "worsening": false
+  }
+ ],
+ "response_gap": {
+  "negative_reviews": 326,
+  "unanswered": 206,
+  "pct_unanswered": 63.2,
+  "examples": [
+   {
+    "id": "google:Ci9DQUlRQUNvZENodHljRjlvT2xRME4yUjJTM1JTTkVoU1p6bE9NSGR2V0ZCWU1WRRAB",
+    "rating": 1.0,
+    "date": "2026-07-08",
+    "quote": "Giving all 1-star except for the food. Came here to work a little but the WiFi doesn't connect. Staff just says, \"sometimes it's broke\" but when I check reviews I see there are tons of complaints that"
+   },
+   {
+    "id": "google:ChdDSUhNMG9nS0VJQ0FnSUNjNi1TUjJ3RRAB",
+    "rating": 3.0,
+    "date": "2020-04-11",
+    "quote": ""
+   },
+   {
+    "id": "google:ChZDSUhNMG9nS0VJQ0FnSURNaDdYRFBnEAE",
+    "rating": 1.0,
+    "date": "2020-01-13",
+    "quote": "Was there during lunch time. One person was serving 10 people... The tables and the floor were pretty dirty. Since the person was overwhelmed with the queued people, he was not really friendly. Food w"
+   }
+  ]
+ },
+ "actions": [
+  {
+   "action": "Start responding to negative reviews",
+   "evidence": "63.2% of ≤3★ reviews (206/326) have no owner response",
+   "priority": 99,
+   "cited_reviews": [
+    "google:Ci9DQUlRQUNvZENodHljRjlvT2xRME4yUjJTM1JTTkVoU1p6bE9NSGR2V0ZCWU1WRRAB",
+    "google:ChdDSUhNMG9nS0VJQ0FnSUNjNi1TUjJ3RRAB",
+    "google:ChZDSUhNMG9nS0VJQ0FnSURNaDdYRFBnEAE"
+   ]
+  },
+  {
+   "action": "Address 'service & staff'",
+   "evidence": "108/287 mentions are 1-2★ (theme avg 3.26★, worsening: 3.29→2.73★)",
+   "priority": 6.38,
+   "cited_reviews": [
+    "google:Ci9DQUlRQUNvZENodHljRjlvT2xRME4yUjJTM1JTTkVoU1p6bE9NSGR2V0ZCWU1WRRAB",
+    "google:Ci9DQUlRQUNvZENodHljRjlvT2tsS01uYzBORmwwWldaTk9FRTFhM2xPZVdoTWVuYxAB",
+    "google:Ci9DQUlRQUNvZENodHljRjlvT2xFelRGRlVURTEwV1RNMlZsOW1TbmwwWlU5VFMxRRAB"
+   ]
+  },
+  {
+   "action": "Address 'pastry & bread quality'",
+   "evidence": "120/524 mentions are 1-2★ (theme avg 3.63★, worsening: 3.64→3.35★)",
+   "priority": 5.24,
+   "cited_reviews": [
+    "google:Ci9DQUlRQUNvZENodHljRjlvT2xFelRGRlVURTEwV1RNMlZsOW1TbmwwWlU5VFMxRRAB",
+    "google:Ci9DQUlRQUNvZENodHljRjlvT2t4S1NVMTRhRkJ0VEVkT05qbFhlVFpCWkZFNVRuYxAB",
+    "google:Ci9DQUlRQUNvZENodHljRjlvT2xCcFVqaFRiRUp2ZHpkRGVDMUJjakJvYnpsU1JuYxAB"
+   ]
+  },
+  {
+   "action": "Address 'wait & speed'",
+   "evidence": "54/146 mentions are 1-2★ (theme avg 3.12★, worsening: 3.14→2.67★)",
+   "priority": 4.47,
+   "cited_reviews": [
+    "google:Ci9DQUlRQUNvZENodHljRjlvT2t4S1NVMTRhRkJ0VEVkT05qbFhlVFpCWkZFNVRuYxAB",
+    "google:ChZDSUhNMG9nS0VJQ0FnTURJOE8tcUZ3EAE",
+    "google:ChZDSUhNMG9nS0VJQ0FnSURQX3NlZ1RREAE"
+   ]
+  },
+  {
+   "action": "Address 'coffee & drinks'",
+   "evidence": "54/222 mentions are 1-2★ (theme avg 3.5★, worsening: 3.53→2.89★)",
+   "priority": 3.62,
+   "cited_reviews": [
+    "google:Ci9DQUlRQUNvZENodHljRjlvT2t4S1NVMTRhRkJ0VEVkT05qbFhlVFpCWkZFNVRuYxAB",
+    "google:ChZDSUhNMG9nS0VJQ0FnSURQX3NlZ1RREAE",
+    "google:ChZDSUhNMG9nS0VJQ0FnSUNtaXJXcWN3EAE"
+   ]
+  },
+  {
+   "action": "Address 'freshness'",
+   "evidence": "34/118 mentions are 1-2★ (theme avg 3.44★)",
+   "priority": 3.13,
+   "cited_reviews": [
+    "google:Ci9DQUlRQUNvZENodHljRjlvT2xCcFVqaFRiRUp2ZHpkRGVDMUJjakJvYnpsU1JuYxAB",
+    "google:ChdDSUhNMG9nS0VJQ0FnSUNpMnNlYWxBRRAB",
+    "google:ChdDSUhNMG9nS0VJQ0FnSUNnNFBYeWxBRRAB"
+   ]
+  },
+  {
+   "action": "Address 'parking & access'",
+   "evidence": "38/148 mentions are 1-2★ (theme avg 3.41★)",
+   "priority": 3.12,
+   "cited_reviews": [
+    "google:Ci9DQUlRQUNvZENodHljRjlvT21OeVlqbE5XV1ZLUmxsa1YwUndOM3AxZDFWVVoyYxAB",
+    "google:ChZDSUhNMG9nS0VJQ0FnTURJOE8tcUZ3EAE",
+    "google:ChZDSUhNMG9nS0VJQ0FnSURyZ0t1ckhBEAE"
+   ]
+  },
+  {
+   "action": "Address 'cleanliness & space'",
+   "evidence": "36/148 mentions are 1-2★ (theme avg 3.55★, worsening: 3.56→3.17★)",
+   "priority": 2.96,
+   "cited_reviews": [
+    "google:Ci9DQUlRQUNvZENodHljRjlvT2xFelRGRlVURTEwV1RNMlZsOW1TbmwwWlU5VFMxRRAB",
+    "google:ChdDSUhNMG9nS0VJQ0FnSURDcm9tdXhnRRAB",
+    "google:ChZDSUhNMG9nS0VJQ0FnSURNaDdYRFBnEAE"
+   ]
+  }
+ ]
+}

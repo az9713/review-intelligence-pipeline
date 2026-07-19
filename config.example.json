@@ -1,0 +1,18 @@
+{
+  "business": {
+    "full_name": "Your Business Name, Full Street Address, City ST"
+  },
+  "max_reviews_per_source": 500,
+  "sources": {
+    "google": {
+      "actor": "compass~Google-Maps-Reviews-Scraper",
+      "search_query": "Your Business Name Full Street Address City ST ZIP",
+      "listing_url": "https://www.google.com/maps/search/Your+Business+Name+Street+Address+City"
+    },
+    "yelp": {
+      "actor": "web_wanderer~yelp-reviews-scraper",
+      "biz_url": "https://www.yelp.com/biz/your-business-slug",
+      "listing_url": "https://www.yelp.com/biz/your-business-slug"
+    }
+  }
+}
