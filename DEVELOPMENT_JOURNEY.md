@@ -24,7 +24,8 @@ The story of how this project was built, in order, from a YouTube video to a liv
 14. [The /verify pass](#14-the-verify-pass)
 15. [The /code-review pass](#15-the-code-review-pass)
 16. [The /security-review pass](#16-the-security-review-pass)
-17. [What the journey shows](#17-what-the-journey-shows)
+17. [Turning the review into a reusable skill](#17-turning-the-review-into-a-reusable-skill)
+18. [What the journey shows](#18-what-the-journey-shows)
 
 ---
 
@@ -205,7 +206,17 @@ Unlike `/code-review`, its scope is hardcoded rather than overridable: it always
 
 **What it teaches:** the discipline that makes `/security-review` useful isn't the finding step — pattern-matching "unescaped data near `innerHTML`" is easy, and produces plenty of candidates. It's the filtering step, done adversarially and independently per finding, that turns a list of "looks suspicious" into a short, trustworthy list of "is actually exploitable." Finding 4 above is the clearest example: on its face it reads like a real stored-XSS bug, and only tracing exactly where `date`, `rating`, and `source` come from in the pipeline's own code — rather than trusting the label "review-derived" — showed it wasn't one. And separately: a command with a hardcoded scope (unlike `/code-review`'s overridable one) can still be extended to cover a whole codebase, as long as its *methodology* — not just its literal invocation — is understood well enough to replicate by hand.
 
-## 17. What the journey shows
+## 17. Turning the review into a reusable skill
+
+The whole-codebase security review in section 16 was hand-orchestrated: the built-in `/security-review` couldn't be pointed at anything but a diff, so its three-phase methodology was replicated manually with a team of sub-agents. That worked once, but "understand the methodology well enough to rebuild it by hand each time" is not a durable capability. So the manual process was captured as a project-scoped Claude Code skill, [`.claude/skills/security-review-codebase/SKILL.md`](.claude/skills/security-review-codebase/SKILL.md) — committed to the repo alongside the existing `verify` skill, so it ships with the project and runs as a single `/security-review-codebase` invocation.
+
+**What the skill encodes**, distilled from the manual run: scope every tracked file as if newly added (the empty-tree-hash reframing, which also sidesteps the `origin/HEAD` problem that stopped the native command from running at all); one parallel finder agent per attack surface; one parallel false-positive-filter agent per candidate, applying the native command's verbatim exclusion/precedent rubric and re-reading the actual code rather than trusting the finder; and a confidence-≥8 cutoff, with everything below it listed as a traced-and-rejected candidate rather than hidden.
+
+**Two lessons from the manual run were written into the skill as explicit rules**, because they were mistakes worth not repeating. First, the orchestration must use plain agent calls that return their results — the manual attempt used named background "teammates" with fork-relay chains and message-polling, which stalled, spawned duplicate finders, and left fifteen idle agents alive that had to be shut down one by one afterward. Second, a finding only counts if it's exploitable in the code *as it stands today*; "would become a bug if the code later changed" is excluded — two of the five candidates in the manual run were rejected on exactly that basis, and baking the rule in keeps the filter honest.
+
+A standalone reference — origin, what it is, how it works, how to use it — lives in [`docs/security-review-codebase.md`](docs/security-review-codebase.md). The throughline worth naming: the most reusable output of a QA pass isn't the findings, it's the *process*, once it's captured somewhere a future session can invoke instead of reconstruct.
+
+## 18. What the journey shows
 
 A few things held true across the whole arc, worth naming explicitly:
 
