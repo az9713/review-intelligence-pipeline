@@ -30,7 +30,7 @@ The story of how this project was built, in order, from a YouTube video to a liv
 
 ## 1. Origin
 
-The project started from a YouTube video, ["Turn Google reviews into business decisions"](https://www.youtube.com/watch?v=rvApCZNxUXU) by Mansel Scheffel — a walkthrough of turning scattered customer reviews into a decision-making tool for a business owner. The video's own worked example was a different restaurant entirely (a London restaurant used as an illustration partway through); it wasn't the source of this project's data, just the inspiration for the pipeline shape.
+The project started from a YouTube video, ["Claude Code + MCP = 24/7 AI Business Intelligence Agent"](https://www.youtube.com/watch?v=rvApCZNxUXU&t=426s) by Mansel Scheffel — a walkthrough of turning scattered customer reviews into a decision-making tool for a business owner. The video's own worked example was a different restaurant entirely (a London restaurant used as an illustration partway through); it wasn't the source of this project's data, just the inspiration for the pipeline shape.
 
 The video's pitch, in short: most businesses sit on a goldmine of review data and do nothing with it beyond an occasional "thanks for the review" reply. The fix — find every place a business is reviewed, scrape it, store it, analyze it for evidence (not vibes), and present it as something a business owner can act on. The video also framed this as a consulting lead magnet: scrape a prospect's reviews, show them their pain points, pitch the fix.
 
